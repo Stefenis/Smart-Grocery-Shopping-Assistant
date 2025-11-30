@@ -220,8 +220,6 @@ with st.sidebar:
     else:
         st.caption("Cart is empty.")
     
-    st.markdown("---")
-    st.info("**Student Details:**\n\nReg No: [Your ID]\n\nName: [Your Name]")
 
 # --- MAIN UI LAYOUT ---
 
@@ -384,5 +382,6 @@ with col_dash_2:
     
     if not health_tips_found:
             st.success("Your pantry looks healthy! 🍎")
+
 
 st.markdown("---")
